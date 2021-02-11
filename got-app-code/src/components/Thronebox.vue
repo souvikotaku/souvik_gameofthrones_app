@@ -22,7 +22,7 @@
               <img 
               class="picbox"
               style="width:100%"
-              v-bind:src="post.characterImageFull"
+              v-bind:src="post.characterImageFull || 'https://acimg.auctivacommerce.com/imgdata/0/2/0/4/2/7/webimg/7123006.jpg' " alt="No Photo"
               />
               <div className='overlay  '>
                
